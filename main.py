@@ -10,6 +10,7 @@ import json
 import subprocess
 website = Flask(__name__)
 @website.route('/',methods=['GET'])
+def trolol():
     return render_template('index.html')
 
 if __name__ == '__main__':
