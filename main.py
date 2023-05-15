@@ -13,5 +13,5 @@ def trolol():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app_server = pywsgi.WSGIServer(('0.0.0.0', 443), website)
+    app_server = pywsgi.WSGIServer(('0.0.0.0', 80), website)
     app_server.serve_forever()
